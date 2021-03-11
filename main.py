@@ -55,7 +55,7 @@ def respond(voice_data):
 
 
 time.sleep(1.5)
-alice_speak("How can I help you?")
+alice_speak("How can I help you, bro?")
 while 1:
     voice_data = record_audio()
     respond(voice_data)
